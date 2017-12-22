@@ -1,0 +1,47 @@
+!SESSION 2017-10-13 18:35:06.312 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/ashokarulsamy/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/ashokarulsamy/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2017-10-13 18:36:00.982
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2017-10-13 18:39:34.580 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -keyring /Users/ashokarulsamy/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -data file:/Users/ashokarulsamy/projects/poc/ProcessFilesFromBucket/ -product org.eclipse.epp.package.jee.product -keyring /Users/ashokarulsamy/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2017-10-13 18:39:41.355
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2017-10-13 18:39:46.067
+!MESSAGE Starting the AWS toolkit core plugin...
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2017-10-13 18:39:49.407
+!MESSAGE Failed to load credential profiles from (/Users/ashokarulsamy/.aws/credentials).AWS credential profiles file not found in the given path: /Users/ashokarulsamy/.aws/credentials
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2017-10-13 18:39:49.420
+!MESSAGE Monitoring content of /Users/ashokarulsamy/.aws/credentials
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2017-10-13 18:39:49.515
+!MESSAGE AWS toolkit core plugin initialized after 3449 milliseconds.
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2017-10-13 18:39:49.519
+!MESSAGE Failed to load credential profiles from (/Users/ashokarulsamy/.aws/credentials).AWS credential profiles file not found in the given path: /Users/ashokarulsamy/.aws/credentials
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2017-10-13 18:39:49.521
+!MESSAGE No account is configued in the toolkit. Bootstrapping the credentials file at (/Users/ashokarulsamy/.aws/credentials).
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2017-10-13 18:39:49.527
+!MESSAGE No profile found: default
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2017-10-13 18:39:49.528
+!MESSAGE The current accountId is not found in the system. Switching to the default account.
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2017-10-13 18:39:49.935
+!MESSAGE Initialized a new Cognito identity us-east-1:6974d586-0491-4bd9-a86b-e794810601e1
